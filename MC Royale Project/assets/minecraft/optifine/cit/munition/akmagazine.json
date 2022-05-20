@@ -1,0 +1,48 @@
+{
+	"parent": "minecraft:item/iron_nugget",
+	"textures": {
+        "layer0": "optifine/cit/munition/ak47munition.png"
+    },
+	
+	"display": {
+        
+        "thirdperson_righthand": {
+
+            "rotation": [ 0, -90, 0 ],
+			
+            "translation": [ 0, 0, 0 ],
+
+            "scale": [ 0.40, 0.40, 0.40 ]
+
+ 	},
+        
+        "firstperson_righthand": {
+
+            "rotation": [  -10, -90, -15 ],
+
+            "translation": [ 0, 4, 1 ],
+ 
+           "scale": [ 0.30, 0.30, 0.30 ]
+
+        },
+
+        "firstperson_lefthand": {
+
+            "rotation": [ 20, 90, -15],
+
+            "translation": [ 0, 4, 1 ],
+
+            "scale": [ 0.30, 0.30, 0.30 ]
+
+        },
+		
+		"thirdperson_lefthand": {
+
+            "rotation": [ 0, 90, 0 ],
+			
+            "translation": [ 0, 0, 0 ],
+
+            "scale": [ 0.40, 0.40, 0.40 ]
+		}	
+	}
+}
